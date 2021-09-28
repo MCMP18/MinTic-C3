@@ -37,7 +37,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
             {
             Bus = repositorioBuses.Update(Bus);
             }
-            return Page();
+            return RedirectToPage("./List");
         }
 
     }
